@@ -1,0 +1,23 @@
+{
+  "name": "linkedin",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TanyaKars/linkedIn.git"
+  },
+  "author": "TanyaKarsova",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TanyaKars/linkedIn/issues"
+  },
+  "homepage": "https://github.com/TanyaKars/linkedIn#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0",
+    "cypress-xpath": "^1.6.2"
+  }
+}
