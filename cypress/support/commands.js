@@ -1,3 +1,13 @@
+import BasePage from "./PageObject/BasePage";
+
+const basePage = new BasePage
+Cypress.Commands.add('login', (email, password) => {
+    cy.visit('');
+ basePage.signIn().click();
+ basePage.userName().type(email);
+ basePage.password().type(password);
+ basePage.login().click();
+});
 // ***********************************************
 // This example commands.js shows you how to
 // create various custom commands and overwrite
